@@ -14,7 +14,6 @@ function handleClick(e) {
 
 function greet(string) {
   const num = parseInt(string.split(' '));
-  debugger;
   if (num < 12) {
     return "Good Morning"
   } 
